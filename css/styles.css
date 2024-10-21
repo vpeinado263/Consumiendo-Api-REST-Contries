@@ -1,0 +1,17 @@
+
+body {
+    font-family: "Indie Flower";
+    background-color: #412c1b;
+    color: bisque;
+}
+h1 {
+    text-align: center;
+}
+.barra {
+    display: block;
+    margin: 1.54rem auto;
+    padding: 1rem;
+    width: 80%;
+    max-width: 13rem;
+    font-size: 1.2em;
+}
