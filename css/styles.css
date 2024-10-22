@@ -1,12 +1,13 @@
-
 body {
-    font-family: "Indie Flower";
+    font-family: "Indie Flower", cursive;
     background-color: #412c1b;
     color: bisque;
 }
+
 h1 {
     text-align: center;
 }
+
 .barra {
     display: block;
     margin: 1.54rem auto;
@@ -15,36 +16,54 @@ h1 {
     max-width: 13rem;
     font-size: 1.2em;
 }
+
 .container {
     text-align: center;
 }
+
 .tierra {
     cursor: pointer;
     max-width: 100px;
     transition: transform 2s ease;
 }
+
 .tierra:hover {
-    transform: rotate(360deg) scale(1);
+    transform: rotate(360deg) scale(1.2);
 }
+
 .section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 10px;
     padding: 20px;
-    max-width: 250px;
+    max-width: 100%; 
+    font-family: "Urbanist", sans-serif;
 }
+
 .info {
     margin-top: 30px;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(80, 65, 65);
     border-radius: 8px;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(red, green, blue, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
+
 article {
-    background-color: white;
+    background-color: rgb(75, 62, 62);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin: 10px;
+    padding: 20px;
+    max-width: 250px;
+}
+
+article h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
