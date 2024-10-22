@@ -23,7 +23,7 @@ h1 {
 
 .tierra {
     cursor: pointer;
-    max-width: 100px;
+    max-width: 8rem;
     transition: transform 2s ease;
 }
 
@@ -35,22 +35,19 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 10px;
-    padding: 20px;
     max-width: 100%; 
     font-family: "Urbanist", sans-serif;
 }
 
 .info {
-    margin-top: 30px;
-    padding: 20px;
-    background-color: rgb(80, 65, 65);
-    border-radius: 8px;
-    max-width: 600px;
+    background-color: rgb(42, 42, 53);
+    border-radius: 1.5rem;
+    max-width: 30rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    font-family: 'Courier New', Courier, monospace;
 }
 
 article {
@@ -65,5 +62,5 @@ article {
 
 article h2 {
     font-size: 1.5em;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
